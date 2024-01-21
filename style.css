@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rosybrown;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#colours {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: white;
+}
+
+#colours span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
